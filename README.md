@@ -26,11 +26,19 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
 
+React is a powerful UI component library who’s purpose is to build applications. It uses the virtual DOM to update any changes that will be made over time. This helps a lot with processing and takes a lot of work load off the DOM.
+
 - [ ] What does it mean to _think_ in react?
+
+To think in React means to visualize applications as being built by components and how to form a data flow between them utilizing state and props
 
 - [ ] Describe state.
 
+State can be thought of as the heart of React. It holds Data and determines how components render code.
+
 - [ ] Describe props.
+
+If State is the heart then props are the blood of React. It allows data flow from parent to child components. 
 
 ## Project Set Up
 
