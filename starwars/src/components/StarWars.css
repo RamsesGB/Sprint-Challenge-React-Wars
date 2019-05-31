@@ -1,0 +1,10 @@
+.castListBox {
+    display: flex;
+    flex-flow: column wrap;
+}
+.studentCard {
+    display: flex;
+    flex-flow: column wrap;    
+    background: white;
+    margin: 2% 0;
+}
