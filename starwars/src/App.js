@@ -35,6 +35,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        {/* Passing API data as a prop to the CastList.JS file */}
         <CastList data={this.state.starwarsChars} />
       </div>
     );

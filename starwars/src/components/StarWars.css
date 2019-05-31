@@ -5,6 +5,8 @@
 .studentCard {
     display: flex;
     flex-flow: column wrap;    
-    background: white;
-    margin: 2% 0;
+    background: black;
+    color: yellow;
+    margin: 2% auto;
+    width: 50%;
 }
