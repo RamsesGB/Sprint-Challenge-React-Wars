@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import CastList from './components/CastList';
 
 class App extends Component {
   constructor() {
@@ -30,9 +31,12 @@ class App extends Component {
   };
 
   render() {
+    console.log(this.state.starwarsChars);
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        {/* Passing API data as a prop to the CastList.JS file */}
+        <CastList data={this.state.starwarsChars} />
       </div>
     );
   }
